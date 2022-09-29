@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sheet</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Personal Contact Information</h1>
+    </header>
+    <hr>
+    <form method="get" action="index.html">
+    <fieldset>
+        <div>
+            <label class="label" for="firstName">First name:</label>
+            <br>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label class="label" for="lastName">Last name:</label>
+            <br>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label class="label" for="Email">Email Address:</label>
+            <br>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label class="label" for="firstName">Phone number (optional):</label>
+            <br>
+            <input type="text" name="name" id="name">
+        </div>
+    </fieldset>
+
+    <fieldset class="field">
+        <legend class="legend">choose the reason for which this query is about</legend>
+        <div>
+            <br>
+            <label class="label" for="select">Pick one of the following options:</label>
+            <br>
+            <select name="select" id="select">
+                <option value="op0">-----</option>
+                <option value="op1">Business Proposal</option>
+                <option value="op2">Appointment</option>
+                <option value="op3">Complaints</option>
+                <option value="op4">Injury report</option>
+                <option value="op5">for funzies</option>
+                <option value="op6">Other</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <p>Message and/or additional comments:</p>
+    <textarea id="w3review" name="w3review" rows="5" cols="50"></textarea>
+    <div class="container">
+        <form action="C:\Users\billy\OneDrive\Documents\Georgian College\HTML class\assignment 2\THANKYOU.html">
+            <button class="btn btn-danger btn-lg">Submit</button>
+        </form>
+    </div>
+
+</body>
+</form>
+</html>
